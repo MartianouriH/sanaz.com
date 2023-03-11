@@ -1,0 +1,580 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main {
+    height: 2000px;
+    width: 100%;
+    
+}
+
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+.menu {
+   background-color: rgba(254, 248, 244, 1);
+   height: 150px;
+   color: black;
+   z-index: 1;
+}
+.links {
+    top: 70px;
+    position: absolute;
+    left: 15%;
+}
+.info {
+    position: absolute;
+    border-radius: 60px;
+    height: 75px;
+    width: 60%;
+left: 20%;
+top: 120px ;
+z-index: 10;
+background: white;
+box-shadow:  rgb(191, 191, 191) 0 0 0px 2px;
+display: block;
+}
+
+
+
+.center-hole {
+    border-radius: 250px;
+    background: rgb(238, 238, 238);
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 40%;
+    top: -70px;
+    outline: none;
+}
+
+
+
+.ab {
+    position: absolute;
+    margin: 70px 0 0 30px;
+}
+
+
+.bb {
+    position: absolute;
+    margin: 120px 0 0 40px;
+}
+
+.phone-number {
+    position: absolute;
+    top: 40%;
+    left: 100px;
+}
+
+.instagram1 {
+    position: absolute;
+    left: 90%;
+    top: 15px;
+}
+
+.instagram2 {
+    position: sticky ;
+    left: 90%;
+    top: 90%;
+}
+
+
+.instagram3 {
+    position: absolute;
+    left: 90%;
+    top: 15px;
+    display: none;
+}
+
+.a1 {
+    width: 50px;
+    height: 50px;
+}
+
+
+.line {
+    border: rgb(67, 12, 12) solid 50px;
+}
+
+
+
+
+.soon-content {
+height: 500px;
+width: 60%;
+margin: 100px auto;
+display: flex;
+gap: 65px;
+}
+
+
+
+.r-content {
+    border: skyblue solid;
+    width: 45% ;
+    height: 100%;
+    border-radius: 60px;
+}
+
+
+.si {
+
+width: 100%;
+height: 100%;
+position: relative;
+z-index: 0;
+border-radius: 60px;
+}
+
+
+.st1 {
+    position: absolute;
+    z-index: 1;
+    left: 25%;
+    bottom: 200px;
+}		
+
+
+
+.st2 {
+    position: absolute;
+    z-index: 1;
+    left: 25%;
+    bottom: 150px;
+}
+
+
+
+.l-content {
+    border: skyblue solid;
+    width: 45% ;
+    height: 100%;
+    border-radius: 60px;
+}
+
+
+
+.st3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 200px;
+}
+
+
+
+.st4 {
+    position: absolute;
+    z-index: 1;
+    bottom: 150px;
+}
+
+
+
+
+
+.main-content {
+    background-color: rgb(255, 102, 102) ;
+}
+
+
+
+
+
+
+
+
+.prev-slide {
+    color: black;
+}
+
+
+
+.prev-slide ::after {
+    color: black;
+}
+
+
+
+
+.i1 {
+    position: relative;
+    margin:0;
+    color: white;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    line-height: 1.2;
+    margin: 0 auto 14px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+}
+
+.i2 {
+    position: relative;
+    margin:0;
+    color:white;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    line-height: 1.2;
+    margin: 0 auto 14px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+}
+
+
+.i3{
+    position: relative;
+    margin:0;
+    color:white;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    line-height: 1.2;
+    margin: 0 auto 14px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+}
+
+.i4 {
+    position: relative;
+    margin:0;
+    color:white;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    line-height: 1.2;
+    margin: 0 auto 14px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+}
+.i5 {
+    position: relative;
+    margin:0;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    line-height: 1.2;
+    margin: 0 auto 14px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+color:white;
+}
+
+.i10 {
+    position: relative;
+    margin:0;
+    color: white;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    line-height: 1.2;
+    margin: 0 auto 14px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+}
+.i9 {
+    position: relative;
+    margin:0;
+    color:white;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    line-height: 1.2;
+    margin: 0 auto 14px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+}
+
+
+.i8 {
+    position: relative;
+    margin:0;
+    color:white;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    line-height: 1.2;
+    margin: 0 auto 14px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+}
+
+.i7 {
+    position: relative;
+    margin:0;
+    color:white;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    line-height: 1.2;
+    margin: 0 auto 14px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+}
+
+.i6 {
+    position: relative;
+    margin:0;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    line-height: 1.2;
+    margin: 0 auto 14px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+color:white;
+}
+
+
+.phone-number-line {
+    position: relative;
+    top: 0;
+    padding: 0 0 0 300px;
+    background: rgb(67, 12, 12);
+    display: none;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+
+    .instagram3 {
+        position: absolute;
+        left: 90%;
+        top: 15px;
+        display: block;
+    }
+
+    .i1 {
+        position: relative;
+        margin:0;
+        color: white;
+        text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+        line-height: 1.2;
+        margin: 0 auto 14px;
+        color: #ffffff;
+        width: 90%;
+        max-width: 400px;
+    }
+    .i2 {
+        position: relative;
+        margin:0;
+        color:white;
+        text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+        line-height: 1.2;
+        margin: 0 auto 14px;
+        color: #ffffff;
+        width: 90%;
+        max-width: 400px;
+    }
+    
+    
+    .i3{
+        position: relative;
+        margin:0;
+        color:white;
+        text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+        line-height: 1.2;
+        margin: 0 auto 14px;
+        color: #ffffff;
+        width: 90%;
+        max-width: 400px;
+    }
+    
+    .i4 {
+        position: relative;
+        margin:0;
+        color:white;
+        text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+        line-height: 1.2;
+        margin: 0 auto 14px;
+        color: #ffffff;
+        width: 90%;
+        max-width: 400px;
+    }
+    
+    .i5 {
+        position: relative;
+        margin:0;
+        text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+        line-height: 1.2;
+        margin: 0 auto 14px;
+        color: #ffffff;
+        width: 90%;
+        max-width: 400px;
+    color:white;
+    }
+
+    .i10 {
+        position: relative;
+        margin:0;
+        color: white;
+        text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+        line-height: 1.2;
+        margin: 0 auto 14px;
+        color: #ffffff;
+        width: 90%;
+        max-width: 400px;
+    }
+    .i9 {
+        position: relative;
+        margin:0;
+        color:white;
+        text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+        line-height: 1.2;
+        margin: 0 auto 14px;
+        color: #ffffff;
+        width: 90%;
+        max-width: 400px;
+    }
+    
+    
+    .i8 {
+        position: relative;
+        margin:0;
+        color:white;
+        text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+        line-height: 1.2;
+        margin: 0 auto 14px;
+        color: #ffffff;
+        width: 90%;
+        max-width: 400px;
+    }
+    
+    .i7 {
+        position: relative;
+        margin:0;
+        color:white;
+        text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+        line-height: 1.2;
+        margin: 0 auto 14px;
+        color: #ffffff;
+        width: 90%;
+        max-width: 400px;
+    }
+    
+    .i6 {
+        position: relative;
+        margin:0;
+        text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+        line-height: 1.2;
+        margin: 0 auto 14px;
+        color: #ffffff;
+        width: 90%;
+        max-width: 400px;
+    color:white;
+    }
+    .soon-content {
+        height: 1100px; 
+         width: 100%; 
+        margin: 100px auto;
+         display: block; 
+        gap: 65px;
+        }
+        
+        
+        
+        .r-content {
+            border: skyblue solid;
+             width: 100%; 
+            height: 500px;
+            border-radius: 60px;
+            position: relative;
+        }
+        
+        
+        .si {
+        
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 0;
+        border-radius: 60px;
+        }
+        
+        
+        .st1 {
+            position: absolute;
+            z-index: 1;
+            font-size: 34px;
+            margin: 150px 30px;
+             left: 0; 
+             bottom: 0; 
+        }	
+        
+        
+        
+        .st2 {
+            position: absolute;
+            z-index: 1;
+            position: absolute;
+            z-index: 1;
+            left: 0; 
+             bottom: 0; 
+            font-size: 34px;
+            margin: 200px 30px;
+        }
+        
+        
+        
+        .l-content {
+            border: skyblue solid;
+             width: 100%; 
+            height: 500px;
+            border-radius: 60px;
+            position: relative;
+        }
+        
+        
+        
+        .st3 {
+            position: absolute;
+            z-index: 1;
+            font-size: 34px;
+            margin: 150px 30px;
+             left: 0; 
+             bottom: 0; ;
+            bottom: 0;
+        }
+        
+        
+        
+        .st4 {
+            z-index: 1;
+            position: absolute;
+            z-index: 1;
+            left: 0; 
+             bottom: 0; 
+            font-size: 34px;
+            margin: 200px 30px;
+        }
+
+
+        .cd-hero__slide:nth-of-type(4) {
+            background-color: #2c343b;
+            height:500px;
+            background-image: url("IMG_1589.jpeg");
+          }
+
+
+
+        .info {
+            position: absolute;
+            border-radius: 60px;
+            height: 75px;
+            width: 60%;
+            display: none;
+            left: 20%;
+            top: 120px;
+            z-index: 10;
+            background: white;
+            box-shadow: rgb(191 191 191) 0 0 0px 2px;
+        }
+
+
+
+        .phone-number-line {
+            position: relative;
+            top: 0;
+            padding: 0 0 0 0;
+            background: rgb(67, 12, 12);
+            display: block;
+            color: blueviolet;
+        }
+        
+
+
+}
