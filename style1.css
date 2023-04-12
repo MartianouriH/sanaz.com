@@ -1,8 +1,9 @@
 #searchbar{
-	margin-left: 15%;
-	margin-top: 200px;
-	padding:15px;
-	border-radius: 10px;
+    margin-left: 15%;
+    margin-top: 200px;
+    padding: 60px;
+    border-radius: 10px;
+    font-size: 34px;
 }
 
 input[type=text] {
@@ -18,20 +19,20 @@ input[type=text]:focus {
 }
 
 #list{
-	font-size: 1.5em;
-	margin-left: 35%;
+    font-size: 1.5em;
+    margin-left: 25%;
 }
 
 .animals{
 display: list-item;	
 }
 .xo {
-    border:  5px  double yellowgreen ;
-font-size: 48px;
-width: 400px;
-height: 500px;
-outline: none;
-background: rgb(207, 207, 207);
+    border: 5px double yellowgreen;
+    font-size: 48px;
+    width: 500px;
+    height: 500px;
+    outline: none;
+    background: rgb(207, 207, 207);
 
 }
 
