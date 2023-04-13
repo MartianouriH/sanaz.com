@@ -30,9 +30,10 @@ display: list-item;
     border: 5px double yellowgreen;
     font-size: 48px;
     width: 500px;
-    height: 500px;
+    height: 550px;
     outline: none;
     background: rgb(207, 207, 207);
+    margin:  10px 0 0 0 ;
 
 }
 
